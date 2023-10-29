@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2 ?family=VT323&display=swap');
+header{
+	background-color:#2C2C2C;
+}
+.logo{
+	color:#FFFFFF ;
+	font-family: 'VT323', monospace;
+	margin-right: auto;
+	line-height:50px ;
+}
+.container_header{
+	display: flex;
+}
+.nav_list{
+	display: flex;
+	list-style: none;
+}
+.nav_item{
+	margin-right:50px;
+
+}
+.nav{
+	margin:auto 0;
+}
+.container{
+	max-width: 1250px;
+	margin: 0 auto;
+}
+.logo_img{
+	margin: auto 0;
+}
+.nav_link{
+	color:#FFFFFF ;
+	font-family: 'VT323', monospace;
+	text-decoration: none;
+}
+.hero-block{
+	background-color:#2C2C2C;
+}
+.hero-block_text{
+	color: #FFFFFF80;
+	font-family: 'VT323', monospace;
+	margin: auto 0;
+	margin-left: 70px;
+	font-size: 28px;
+}
+.container_hero-block{
+	display: flex;
+}
+.hero-block_img{
+	height: 356px;
+	border-radius: 30px;
+} 
+section{
+	padding-top: 75px ;
+	padding-bottom: 76px;
+	color: #E4E4E4;
+}
+.section_title{
+	text-align: center;
+}
+.skill_progress_full{
+	background-color: #00C4F0;
+	height: 9px;
+}
+.skill_progress_LUA{
+	background-color: #2C2C2C;
+	height: 100%;
+	width: 10%;
+}
+.about_skills{
+	max-width: 300px;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+}
+.about_content{
+	display: flex;
+	justify-content: center;
+	gap: 300px;
+}
+.about_skills_list{
+	list-style: none;
+	padding: 0;
+	font-family: 'Handjet', cursive;
+	letter-spacing: 4px;
+}
+.skill_progress_CHARISMA{
+	background-color: #2C2C2C;
+	height: 100%;
+	width: 42%;
+}
+.skill_progress_BLENDER_3D{
+	background-color: #2C2C2C;
+	height: 100%;
+	width: 20%;
+}
+.about{
+	background-color: #3E3E3E;
+	font-weight: 400;
+}
+.about_img_container{
+	border: 50px solid #FF8A00;
+	border-radius: 50%;
+	box-shadow: 0 0 150px -50px #FF8A00;
+}
+.about_img{
+	height: 300px ;
+	width: 300px;
+	object-position: -9px 0;
+}
+.section_video{
+	background-color:#2C2C2C;
+}
+.video_container{
+	border: 25px solid #3E3E3E;
+	max-width: 600px;
+	margin: 0 auto;
+	height: 300px;
+	border-radius: 20px;
+	background: #3E3E3E ;
+	
+}
+.video{
+	height:100% ;
+	width:100% ;
+	border-radius: 20px;
+}
+.section_gallery{
+	background-color: #3E3E3E ;
+}
+.gallery_imgs{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 25px ;
+}
+.gallery_imgs > img{
+	width: 29%;
+}
+.flooter_basement{
+	background-color:#2C2C2C;
+}
+.basement_text{
+	color: #E4E4E4;
+}
+.basement_authors_text{
+	color: #FFFFFF;
+}
+.footer_info{
+	display: flex;
+	flex-direction: column;
+	gap:15px ;
+}
+.basement_text{
+	font-size: 32px;
+}
+.flooter_basement{
+	display: flex;
+	justify-content: center;
+	gap: 600px;
+	padding: 50px 0;
+}
+.footer_links{
+	display: flex;
+	gap: 30px;
+}
+@media(max-width: 400px){
+	.nav{
+		display: none;
+	}
+	.container_hero-block{
+		flex-direction: column;
+
+	}
+	.about_content{
+		flex-direction: column;
+		gap: 50px;
+	}
+	.flooter_basement{
+		flex-direction: column;
+		gap: 40px;
+	}
+	.footer_info{
+		text-align: center;
+	}
+	.footer_links{
+		margin: 0 auto;
+	}
+	.gallery_imgs > img{
+		width: 80%;
+	}
+}
